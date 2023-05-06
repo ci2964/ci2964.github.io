@@ -1,0 +1,84 @@
+header{
+    text-shadow: 0px 0px 10px rgb(48, 42, 42);
+    text-align: center;
+    color: purple;
+    border: 2px solid;
+    background-image:url("images/sg1stargate.jfif");
+
+}
+#nav_menu ul li{
+list-style-type: none;
+display: inline;
+padding: 20px;
+
+
+
+}
+#nav_menu {
+    border: 2px solid;
+    text-align: center;
+
+}
+#nav_menu a.current{
+    color:green;
+    font-weight: bold;
+}
+#nav_menu {
+    font-size: 60px;
+
+}
+/* #nav_menu a{
+    color:rgb(203, 11, 158);
+    font-weight: bold;
+} */
+body {
+    background-image:url("images/sg1 gate 2.jpg");
+    background-size:cover;
+    
+}
+div {
+    color: green;
+    font-size:x-large;
+    font-weight: bolder;
+    background-color: rgba(102, 102, 99, 0.8);
+    padding: 10px;
+    
+
+}
+table {
+    text-align: center;
+    padding: 10px;
+
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid black;
+    
+}
+th {
+    color:purple;
+}
+#1{
+    background-image:url("images/sg1 gate 2.jpg");
+    background-size:cover;
+
+}
+h2{
+    color:purple
+}
+#A{
+    background-image:url("images/atlantis space gate.jfif");
+    background-size:cover;
+}
+#U{
+    background-image:url("images/sgustargate.jfif");
+    background-size:cover;
+}
+#S{
+    background-image:url("images/scitrek.png");
+    background-size:cover;  
+}
+#M{
+    background-image:url("images/merch.jpg");
+    background-size:auto;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="shortcut icon" href="images\favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG-1</title>
+  </head>
+  <body id = "M">
+    <audio src = "music\Stargate SG-1 theme song.mp3" autoplay loop volume></audio>
+    <header><h1>Merch</h1></header>
+
+    <nav id="nav_menu">
+      <ul>
+        <li><a href="index.htm" >SG-1</a></li>
+        <li><a href="Teams.htm">Teams</a></li>
+        <li><a href="Seasons.htm" >Seasons</a></li>
+        <li><a href="Merch.htm" class="current">Store</a></li>
+        <li><a href="Link.htm">SciTrek</a></li>
+      </ul>
+    </nav>
+    <div class="content"> SciTrek store is a great place to buy merchandized scifi items.  
+    <p><a href="https://www.youtube.com/@scitrek/store">
+      <img src="images/scitrekstore.jpg" alt="W3Schools.com" width="100" height="132">
+      </a></p>
+      <h1> Join the Fan club!! </h1>
+      <form action="Response.htm" method="post" name="contact">
+        <label>
+          Name: <input name="name" required minlength="15" maxlength="25" />
+        </label>
+        </label>
+        <label>
+          Phone Number:
+          <input
+            name="number"
+            required
+            minlength="10"
+            maxlength="12"
+            type="tel"
+            pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
+          />
+        </label>
+        <label>
+          Email Address:
+          <input
+            name="email"
+            type="email"
+            required
+            minlength="10"
+            maxlength="25"
+            pattern=".+@.+\..+"
+          />
+        </label>
+        <label>
+          Submission Date: <input required type="date" pattern="month/day/year" />
+        </label>
+  
+        <fieldset>
+          <legend>Membership Donation</legend>
+          <input type="radio" name="bike" id="bike1" value="$1000" required />
+          <label for="bike">$1000</label>
+          <input type="radio" name="bike" id="bike2" value="$2000" />
+          <label for="bike2">$2000</label>
+          <input type="radio" name="bike" id="bike3" value="$3000" />
+          <label for="bike3">$3000</label>
+          <input type="radio" name="bike" id="bike4" value="$4000" />
+          <label for="bike4">$4000</label>
+        </fieldset>
+  
+        <label>
+          Password:<input
+            name="password"
+            required
+            type="password"
+            id="password"
+            maxlength="8"
+            placeholder="Enter your password"
+          /><br /><br />
+        </label>
+        <label>
+          Message:<br />
+          <textarea
+            name="text"
+            required
+            minlength="10"
+            maxlength="200"
+            id="Messages"
+            placeholder="Enter massages here"
+          ></textarea>
+        </label><br>
+        <button>Send</button>
+        <button type="reset">Reset</button>
+      </form>
+      </div>
+    </body>
+</html>
