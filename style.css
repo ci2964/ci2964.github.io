@@ -8,8 +8,10 @@ header{
 }
 #nav_menu ul li{
 list-style-type: none;
-display: inline;
+display: inline-block;
 padding: 20px;
+background-color: rgba(0, 0, 0, 0.793);
+border-radius: 1em; 
 
 
 
@@ -40,7 +42,7 @@ div {
     color: green;
     font-size:x-large;
     font-weight: bolder;
-    background-color: rgba(102, 102, 99, 0.8);
+    background-color: rgba(57, 57, 52, 0.798);
     padding: 10px;
     
 
