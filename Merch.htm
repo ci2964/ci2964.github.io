@@ -37,17 +37,16 @@
             type="tel"
             pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
         </input>
-        </label>
         <label>
           Email Address:
-          <input
+          <input>
             name="email"
             type="email"
             required
             minlength="10"
             maxlength="25"
             pattern=".+@.+\..+"
-          />
+        </input>
         </label>
         <label>
           Submission Date: <input required type="date" pattern="month/day/year">
@@ -65,25 +64,27 @@
         </fieldset>
   
         <label>
-          Password:<input
+          <input>
+          Password:
             name="password"
             required
             type="password"
             id="password"
             maxlength="8"
             placeholder="Enter your password"
-          /><br /><br />
+        </input>
+          <br /><br />
         </label>
         <label>
           Message:<br>
-          <textarea
+          <textarea>
             name="text"
             required
             minlength="10"
             maxlength="200"
             id="Messages"
             placeholder="Enter massages here"
-          ></textarea>
+          </textarea>
         </label><br>
         <button>Send</button>
         <button type="reset">Reset</button>
