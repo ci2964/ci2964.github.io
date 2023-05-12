@@ -30,23 +30,24 @@
           Name: <input name="name" required minlength="15" maxlength="25">
         </label>
           Phone Number:
-          <input>
-            name= number
+          <input
+            name= "number"
             required
-            minlength= 10
-            maxlength= 12
+            minlength= "10"
+            maxlength= "12"
             type="tel"
-            pattern= [0-9]{3}-?[0-9]{3}-?[0-9]{4}
+            pattern= "[0-9]{3}-?[0-9]{3}(-?[0-9]{4})"
+            />
                 <label>
           Email Address:
-          <input>
-            name= email
-            type= email
+          <input
+            name= "email"
+            type= "email"
             required
-            minlength= 10
-            maxlength= 25
-            pattern= .+@.+\..+
-        
+            minlength= "10"
+            maxlength= "25"
+            pattern= " .+@.+\..+"
+            />
         </label>
         <label>
           Submission Date: <input required type="date">
@@ -64,26 +65,27 @@
         </fieldset>
   
         <label>
-          <input>
+          <input
           Password:
             name="password"
             required
             type="password"
             id="password"
             maxlength="8"
-            placeholder="Enter your password"        
+            placeholder="Enter your password"   
+            />     
           <br><br>
         </label>
         <label>
           Message:<br>
-          <textarea>
+          <textarea
             name="text"
             required
             minlength="10"
             maxlength="200"
             id="Messages"
             placeholder="Enter massages here"
-          </textarea>
+          ></textarea>
         </label><br>
         <button>Send</button>
         <button type="reset">Reset</button>
